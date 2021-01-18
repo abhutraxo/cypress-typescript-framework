@@ -1,0 +1,44 @@
+{
+  "integrationFolder": "cypress/e2e/test-suites",
+  "baseUrl": "http://localhost:4200",
+  "defaultCommandTimeout": 50000,
+  "requestTimeout": 60000,
+  "responseTimeout": 60000,
+  "pluginsFile": "cypress/plugins/index.js",
+  "supportFile": "cypress/support/index.ts",
+  "viewportWidth": 1280,
+  "viewportHeight": 1024,
+  "fixturesFolder": "cypress/fixtures",
+  "chromeWebSecurity": false,
+  "modifyObstructiveCode": false,
+  "trashAssetsBeforeRuns": true,
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/report/mochawesome-report",
+      "quite": true,
+      "overwrite": false,
+      "html": true,
+      "json": true,
+      "timestamp": "mmddyyyy_HHMMss"
+    },
+    "cypressTestrailMilestoneReporterReporterOptions": {
+      "domain": "testrail.devfactory.com",
+      "username": "testrail.automation@aurea.com",
+      "password": "Ra1MxzvkpwYyd7rwzAMG-QfKX0hg9EqO/TFm81UG7",
+      "projectId": "703",
+      "milestoneId": "22305",
+      "suiteId": "49144",
+      "createTestRun": "yes",
+      "runName": "Automation Test Plan"
+    }
+  },
+  "video": false,
+  "videoUploadOnPasses": false,
+  "screenshotOnRunFailure": true,
+  "projectId": "3y6nm9",
+  "env": {
+    "server_instance": "stage"
+  }
+}

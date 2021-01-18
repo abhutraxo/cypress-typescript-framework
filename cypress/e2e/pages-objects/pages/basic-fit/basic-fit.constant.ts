@@ -1,0 +1,45 @@
+export class BasicFitConstants {
+  static readonly attributes = Object.freeze({
+    classes: {
+      basicFitButton: 'action-button',
+      iframeWrapper: 'iframe__wrapper',
+      questionTitle: 'question-title',
+      submitButton: 'done-button',
+      radioButtonDisplay: 'radio-button-label-text',
+      successNotification: 'snackbar-profile-success',
+      bfq: 'bfq-column',
+      role: 'role-column',
+      successCheckMark: 'fa-check-circle',
+      tooltipComponent: 'mat-tooltip-component',
+      tooltip: 'mat-tooltip',
+      notCompleteBFQ: 'far fa-check',
+      recommendedStep: 'candidate-recommended-step',
+      stepCardHeader: 'step-card-header',
+      badgeName: 'badge-name',
+      startButton: 'start-button',
+      failBfq: 'fa-times-circle',
+      failedNotification: 'snackbar-profile-error',
+      warningBfq: 'fa-exclamation-circle',
+      warningNotification: 'snackbar-profile-warning',
+    },
+  });
+
+  static readonly elementNames = Object.freeze({
+    startAssessment: 'START ASSESSMENT',
+    iframe: 'iframe',
+    over8years: 'Over 8 years',
+    fewerThan3: 'than 3 years',
+    between3n5: 'Between 3 and 5 years',
+    between5n8: 'Between 5 and 8 years',
+    waitingForEval: "We're evaluating your submission",
+    takeTheTest: 'TAKE THE TEST',
+    successMessage: "Congratulations! You've passed the Basic Fit",
+    jobApplication: 'Job Applications',
+    basicFit: 'Basic Fit',
+    checkBasicFit: 'LEARN MORE',
+    recommended: 'Recommended for you',
+    start: 'START',
+    failMessage: "We're sorry, you didn't pass minimum bar for Basic Fit",
+    warnMessage: "You've passed the minimum bar for Basic Fit",
+  });
+}
